@@ -9,7 +9,7 @@ import com.example.demo.dao.IProveedorDAO;
 import com.example.demo.dto.Proveedor;
 
 @Service
-public class ProveedorServiceImpl {
+public class ProveedorServiceImpl implements IProveedorService {
 
 	@Autowired
 	IProveedorDAO proveedorDAO;

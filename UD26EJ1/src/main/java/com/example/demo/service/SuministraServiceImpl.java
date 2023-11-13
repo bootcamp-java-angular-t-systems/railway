@@ -9,7 +9,7 @@ import com.example.demo.dao.ISuministraDAO;
 import com.example.demo.dto.Suministra;
 
 @Service
-public class SuministraServiceImpl {
+public class SuministraServiceImpl implements ISuministraService {
 
 	@Autowired
 	ISuministraDAO suministraDAO;

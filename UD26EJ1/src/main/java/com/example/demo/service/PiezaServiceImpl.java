@@ -9,7 +9,7 @@ import com.example.demo.dao.IPiezaDAO;
 import com.example.demo.dto.Pieza;
 
 @RestController
-public class PiezaServiceImpl {
+public class PiezaServiceImpl implements IPiezaService {
 
 	@Autowired
 	IPiezaDAO piezaDAO;
